@@ -36,8 +36,8 @@ const Translate = () => {
       <Dropdown
         label='Select a Language'
         options={options}
-        selection={selectedLanguage}
-        onSelectionChange={setSelectedLanguage}
+        selected={selectedLanguage}
+        onSelectedChange={setSelectedLanguage}
       />
       <hr />
       <h3 className='ui header'>Output</h3>
